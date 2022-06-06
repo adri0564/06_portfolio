@@ -1,0 +1,22 @@
+/* FONT and TEXT */
+
+/* h1 {
+  font-family: "akzidenzgroteskregularblack";
+  src: url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3.5rem;
+} */
+
+/* p {
+  font-family: "akzidenzgroteskregularlight";
+  src: url("akzidenz-grotesk/akzidenz-grotesk-light-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+} */
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}

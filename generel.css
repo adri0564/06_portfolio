@@ -1,0 +1,23 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* LOGO CONTAINER */
+.logo_container {
+  height: 5vh;
+  width: 100%;
+  display: inline-block;
+}
+
+.logo_container h1 {
+  font-family: "akzidenzgroteskregularblack";
+  src: url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3.5rem;
+  letter-spacing: -3px;
+  color: black;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
