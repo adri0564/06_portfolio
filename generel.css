@@ -15,6 +15,7 @@ body {
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
+  line-height: 1.3;
 }
 
 /* LOGO CONTAINER */
@@ -37,6 +38,16 @@ p {
   border-bottom: 2px solid black;
 }
 
+/* NAVIGATION */
+/* header,
+ul {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+} */
+
+/*GRID 1 1*/
 @media (max-width: 750px) {
   .tema_container {
     margin-top: 1rem;
@@ -44,6 +55,16 @@ p {
     margin-bottom: 1rem;
     margin-left: 1px;
   }
+}
+@media (min-width: 750px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+/*CV GRID*/
+@media (max-width: 910px) {
   .cv_container {
     margin-top: 1rem;
     margin-right: 1px;
@@ -51,10 +72,8 @@ p {
     margin-left: 1px;
   }
 }
-
-@media (min-width: 750px) {
-  /*GRID 1 1*/
-  .grid_1-1 {
+@media (min-width: 910px) {
+  .grid_cv {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -88,23 +107,13 @@ p {
 .cv_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: flex-end;
 }
 
-.cv_container_left {
-  font-size: 1rem;
-  font-weight: bolder;
-  line-height: 1.3;
-  text-align: left;
+.grid_cv {
+  place-items: start stretch;
 }
 
-.cv_container_right {
-  font-size: 1rem;
-  line-height: 1.3;
-  text-align: right;
-}
-
-.grid_1-1 h2 {
+.grid_cv h2 {
   font-family: "akzidenzgroteskregularblack", sans-serif;
   src: url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff") format("woff");
   font-weight: normal;
