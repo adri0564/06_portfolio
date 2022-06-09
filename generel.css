@@ -32,7 +32,6 @@ a:hover {
 
 .logo_container h1 {
   font-family: "akzidenzgroteskregularblack", sans-serif;
-  src: url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-size: 3.5rem;
@@ -47,9 +46,9 @@ a:hover {
 @media (max-width: 750px) {
   .tema_container {
     margin-top: 2rem;
-    margin-right: 1px;
+    margin-right: 1rem;
     margin-bottom: 2rem;
-    margin-left: 1px;
+    margin-left: 1rem;
   }
 }
 @media (min-width: 750px) {
@@ -64,9 +63,9 @@ a:hover {
 @media (max-width: 910px) {
   .cv_container {
     margin-top: 2rem;
-    margin-right: 1px;
-    margin-bottom: 1rem;
-    margin-left: 1px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
   }
 }
 @media (min-width: 910px) {
@@ -95,31 +94,28 @@ a:hover {
   background-image: url("images/tema_02_screendump_bw.png");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 .tema_03_container_top {
   background-image: url("images/tema_03_screendump_bw.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ff6a00;
-  border: 5px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 .tema_04_container_top {
   background-image: url("images/tema_04_screendump_bw.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ff6a00;
-  border: 5px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 .tema_05_container_top {
   background-image: url("images/tema_05_screendump_bw.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ff6a00;
-  border: 5px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 .tema_container_bottom {
@@ -130,7 +126,7 @@ a:hover {
   /* background-color: rgba(255, 255, 255); */
   /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
   /* border: 5px solid #ff6a00; */
-  border-bottom: 2px black;
+  border-bottom: 2px solid black;
 }
 
 /* CV LAYOUT */
@@ -145,7 +141,6 @@ a:hover {
 
 .grid_cv h2 {
   font-family: "akzidenzgroteskregularblack", sans-serif;
-  src: url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-size: 2rem;
@@ -175,8 +170,8 @@ a:hover {
 
 /* FOOTER */
 footer {
-  height: 3rem;
+  height: 1rem;
   width: 100%;
   text-align: center;
-  margin: 1rem;
+  margin: 3rem 1rem 1rem 1rem;
 }

@@ -1,18 +1,14 @@
 /* FONT and TEXT */
-
-/* h1 {
+@font-face {
   font-family: "akzidenzgroteskregularblack";
   src: url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-size: 3.5rem;
-  letter-spacing: -3px;
-} */
+}
 
-/* p {
+@font-face {
   font-family: "akzidenzgroteskregularlight";
   src: url("akzidenz-grotesk/akzidenz-grotesk-light-webfont.woff2") format("woff2"), url("akzidenz-grotesk/akzidenz-grotesk-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-size: 1rem;
-} */
+}
