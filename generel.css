@@ -12,74 +12,15 @@ body {
   background-color: #ff6f36;
 }
 
-p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1rem;
-  line-height: 1.3;
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-a:hover {
-  background-color: rgb(255, 255, 255);
-}
-/* LOGO CONTAINER */
-.logo_container {
-  margin-top: 1rem;
-  /* height: 5vh;
-  width: 100%;
-  display: inline-block;
-  margin-bottom: 3rem; */
-}
-
-.logo_container h1 {
-  font-family: "akzidenzgroteskregularblack", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 3.5rem;
-  letter-spacing: -3px;
-  color: black;
-  text-align: center;
-  border-bottom: 2px solid black;
-}
-
-/*GRID 1 1*/
-
-@media (max-width: 750px) {
-  .tema_container {
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-  }
-}
-@media (min-width: 750px) {
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-}
-/*CV GRID*/
-@media (max-width: 910px) {
-  .cv_container {
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-  }
-}
-@media (min-width: 910px) {
-  .grid_cv {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-}
-
-/* PORTFOLIO LAYOUT */
-
-.tema_container h2 {
+h2 {
   font-family: "akzidenzgroteskregularblack", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -90,56 +31,7 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-.tema_02_container_top {
-  background-image: url("images/tema_02_screendump_bw.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 2px solid #000000;
-}
-
-.tema_03_container_top {
-  background-image: url("images/tema_03_screendump_bw.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 2px solid #000000;
-}
-
-.tema_04_container_top {
-  background-image: url("images/tema_04_screendump_bw.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 2px solid #000000;
-}
-
-.tema_05_container_top {
-  background-image: url("images/tema_05_screendump_bw.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 2px solid #000000;
-}
-
-.tema_container_bottom {
-  font-size: 1rem;
-  line-height: 1.3;
-  text-align: left;
-  color: rgb(0, 0, 0);
-  /* background-color: rgba(255, 255, 255); */
-  /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
-  /* border: 5px solid #ff6a00; */
-  border-bottom: 2px solid black;
-}
-
-/* CV LAYOUT */
-.cv_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.grid_cv {
-  place-items: start stretch;
-}
-
-.grid_cv h2 {
+h3 {
   font-family: "akzidenzgroteskregularblack", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -147,6 +39,13 @@ a:hover {
   line-height: 1.3;
   letter-spacing: -2px;
   color: black;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.3;
+  border-bottom: 2px solid black;
 }
 
 /* NAVIGATION */
@@ -173,5 +72,29 @@ footer {
   height: 1rem;
   width: 100%;
   text-align: center;
-  margin: 3rem 1rem 1rem 1rem;
+  margin: 3rem 0rem 1rem 0rem;
+}
+
+footer p {
+  border-bottom: none;
+}
+
+/* LOGO CONTAINER */
+.logo_container {
+  margin-top: 1rem;
+  /* height: 5vh;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3rem; */
+}
+
+.logo_container h1 {
+  font-family: "akzidenzgroteskregularblack", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3.5rem;
+  letter-spacing: -3px;
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid black;
 }

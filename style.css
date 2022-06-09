@@ -12,3 +12,129 @@
   font-weight: normal;
   font-style: normal;
 }
+
+a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* PORTFOLIO LAYOUT */
+
+.portfolio_tema_02_container_top {
+  background-image: url("images/tema_02_screendump_bw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+.portfolio_tema_03_container_top {
+  background-image: url("images/tema_03_screendump_bw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+.portfolio_tema_04_container_top {
+  background-image: url("images/tema_04_screendump_bw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+.portfolio_tema_05_container_top {
+  background-image: url("images/tema_05_screendump_bw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+/* .portfolio_tema_container_bottom {
+  font-size: 1rem;
+  line-height: 1.3;
+  text-align: left;
+  color: rgb(0, 0, 0);
+} */
+
+/* PORTFOLIO GRID */
+@media (max-width: 750px) {
+  .portfolio_tema_container {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 750px) {
+  .portfolio_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* CV LAYOUT */
+.cv_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_cv {
+  place-items: start stretch;
+}
+
+/* CV GRID */
+@media (max-width: 910px) {
+  .cv_container {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 910px) {
+  .grid_cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* TEMA 02 */
+.tema_container h3 {
+  text-align: center;
+}
+
+.tema_02_container_top {
+  background-image: url("images/tema_02_screendump.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+.tema_03_container_top {
+  background-image: url("images/tema_03_screendump_bw.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  border: 2px solid #000000;
+}
+
+/* TEMA ## LAYOUT */
+@media (max-width: 950px) {
+  .tema_container {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 950px) {
+  .tema_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
