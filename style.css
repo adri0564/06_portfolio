@@ -87,6 +87,10 @@ a:hover {
   place-items: start stretch;
 }
 
+.cv_container_portraet {
+  max-width: inherit;
+}
+
 /* CV GRID */
 @media (max-width: 950px) {
   .cv_container {
