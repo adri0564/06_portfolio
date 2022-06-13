@@ -18,7 +18,6 @@ a:hover {
 }
 
 /* PORTFOLIO LAYOUT */
-
 .portfolio_tema_02_container_top {
   background-image: url("images/tema_02_screendump_bw.png");
   background-repeat: no-repeat;
@@ -47,13 +46,6 @@ a:hover {
   border: 2px solid #000000;
 }
 
-/* .portfolio_tema_container_bottom {
-  font-size: 1rem;
-  line-height: 1.3;
-  text-align: left;
-  color: rgb(0, 0, 0);
-} */
-
 /* PORTFOLIO GRID */
 
 @media (min-width: 750px) {
@@ -64,8 +56,15 @@ a:hover {
     margin-top: 2rem;
   }
 }
+@media (max-width: 750px) {
+  .portfolio_tema_container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
 
 /* CV LAYOUT */
+
 .cv_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
