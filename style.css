@@ -17,6 +17,11 @@ a:hover {
   filter: brightness(1.1);
 }
 
+/* INDEX */
+.genveje {
+  margin-top: 2rem;
+}
+
 /* PORTFOLIO LAYOUT */
 .portfolio_tema_02_container_top {
   background-image: url("images/tema_02_screendump_bw.png");
