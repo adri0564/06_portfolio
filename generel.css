@@ -12,6 +12,10 @@ body {
   background-color: #ff6f36;
 }
 
+main {
+  margin: 1rem;
+}
+
 img,
 video,
 iframe {

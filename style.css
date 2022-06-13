@@ -14,7 +14,6 @@
 }
 
 a:hover {
-  background-color: rgb(255, 255, 255);
   filter: brightness(1.1);
 }
 
@@ -56,14 +55,7 @@ a:hover {
 } */
 
 /* PORTFOLIO GRID */
-@media (max-width: 750px) {
-  .portfolio_tema_container {
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-  }
-}
+
 @media (min-width: 750px) {
   .portfolio_gallery {
     display: grid;
@@ -92,14 +84,7 @@ a:hover {
 }
 
 /* CV GRID */
-@media (max-width: 950px) {
-  .cv_container {
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-  }
-}
+
 @media (min-width: 950px) {
   .grid_cv {
     display: grid;
@@ -112,14 +97,6 @@ a:hover {
 /* TEMA SIDER */
 
 /* TEMA ## LAYOUT */
-@media (max-width: 950px) {
-  .tema_container {
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-  }
-}
 
 @media (min-width: 950px) {
   .tema_gallery {
@@ -127,5 +104,11 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .tema_container {
+    margin-bottom: 1rem;
   }
 }
