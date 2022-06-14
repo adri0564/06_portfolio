@@ -29,35 +29,35 @@ a:hover {
   background-image: url("images/tema_02_screendump_bw.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #000000;
+  border: 2px solid black;
 }
 
 .portfolio_tema_03_container_top {
   background-image: url("images/tema_03_screendump_bw.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #000000;
+  border: 2px solid black;
 }
 
 .portfolio_tema_04_container_top {
   background-image: url("images/tema_04_screendump_bw.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #000000;
+  border: 2px solid black;
 }
 
 .portfolio_tema_05_container_top {
   background-image: url("images/tema_05_screendump_bw.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #000000;
+  border: 2px solid black;
 }
 
 .portfolio_tema_06_container_top {
   background-image: url("images/tema_06_screendump_bw.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #000000;
+  border: 2px solid black;
 }
 
 /* PORTFOLIO GRID */
