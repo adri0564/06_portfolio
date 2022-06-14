@@ -1,6 +1,7 @@
-const toggleButton = document.getElementById("toggle-button");
-const naviList = document.getElementById("navi-list");
+window.addEventListener("load", slideIn);
 
-toggleButton.addEventListener("click", () => {
-  naviList.classList.toggle("active");
-});
+function slideIn() {
+  console.log("slideIn");
+  document.querySelector(".container_slide_right").classList.add("slide_right");
+  document.querySelector(".container_slide_left").classList.add("slide_left");
+}

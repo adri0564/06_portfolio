@@ -24,6 +24,25 @@ a:hover {
   margin-top: 2rem;
 }
 
+#index_body {
+  animation: fade_background_kf 1s;
+  animation-iteration-count: 1;
+}
+@keyframes fade_background_kf {
+  0% {
+    background-color: white;
+    color: white;
+  }
+  40% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: #ff6f36;
+    color: black;
+  }
+}
+
 /* PORTFOLIO LAYOUT */
 .portfolio_tema_02_container_top {
   background-image: url("images/tema_02_screendump_bw.webp");
@@ -128,5 +147,36 @@ a:hover {
 @media (max-width: 950px) {
   .tema_container {
     margin-bottom: 1rem;
+  }
+}
+
+/* ANIMATION */
+.slide_right {
+  animation-name: slide_right_kf;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes slide_right_kf {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.slide_left {
+  animation-name: slide_left_kf;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes slide_left_kf {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
