@@ -14,7 +14,8 @@
 }
 
 a:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.2);
+  opacity: 0.9;
 }
 
 /* INDEX */
@@ -46,6 +47,13 @@ a:hover {
 
 .portfolio_tema_05_container_top {
   background-image: url("images/tema_05_screendump_bw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+.portfolio_tema_06_container_top {
+  background-image: url("images/tema_06_screendump.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 2px solid #000000;
